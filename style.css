@@ -1,0 +1,32 @@
+body{
+    background-color: yellow;
+}
+h1{
+    color:chartreuse;
+    background-color: rgb(11, 100, 184);
+}
+#show_sketch{
+    float:right;
+}
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: sample;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes sample{
+    from{
+        box-shadow: 1px 1px 38px grey;
+    }
+    to{
+        box-shadow:1px 1px 38px white ;
+    }
+
+    
+}
